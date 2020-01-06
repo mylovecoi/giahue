@@ -347,7 +347,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </li>
                             @endif
                             @if(can('register','index'))
-                            <li><a href="{{url('register')}}"> Tài khoản đăng ký</a></li>
+                            <li><a href="{{url('register')}}">Tài khoản đăng ký</a></li>
                             @endif
                             @if(session('admin')->sadmin == 'ssa')
                                 <li><a href="{{url('danhmucnganhkd')}}">Danh mục ngành nghề kinh doanh</a> </li>
@@ -371,7 +371,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <ul class="page-breadcrumb">
                     <li>
                         <i class="fa fa-home"></i>
-                        <a href="{{url('')}}">Trang chủ</a>
+                        <a href="{{url('/')}}">Trang chủ</a>
                         <i class="fa fa-angle-right"></i>
                     </li>
                     <li>
